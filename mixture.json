@@ -1,0 +1,17 @@
+{
+  "debug": false,
+  "lintScripts": false,
+  "preprocessorScriptOutput": "public/scripts",
+  "preprocessorStyleOutput": "public/styles",
+  "projectName": "Responsable",
+  "projectDescription": "A clean responsive grid with a typographic baseline.",
+  "publishedId": null,
+  "publishedAccount": null,
+  "serverHostName": null,
+  "serverPort": null,
+  "templateDirectory": "templates",
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "type": "mixture",
+  "useCompass": false
+}

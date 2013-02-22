@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{% block title %}Responsable + Mixture{% endblock %}</title>
+        {{ "style.css" | asset_url | stylesheet_tag }}
+        <!-- TODO: OOCSS-ify the custom styles and break up the base into smaller modules :) -->
+    </head>
+    <body>
+        {% include "header" %}
+        <div id="content">
+            {% block content %}{% endblock %}
+        </div>
+    </body>
+</html>
